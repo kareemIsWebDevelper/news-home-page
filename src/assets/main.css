@@ -1,0 +1,59 @@
+@import url(./base.css);
+
+#app {
+    width: 375px;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    margin: auto;
+}
+
+#nav-bar {
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo img {
+    width: 35px;
+    height: 25px;
+  }
+
+  .dropdown {
+    width: 100px;
+    height: 250px;
+    text-align: right;
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown img {
+    width: 30px;
+    height: 20px;
+  }
+  .dropdown-content {
+    background-color: white;
+    width: auto;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+@media screen and (min-width: 400px) {
+  #app {
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    margin: auto;
+  }
+
+}
